@@ -1,0 +1,36 @@
+body {
+  background-color:#9F7C73;
+}
+input {
+  border-radius: 3px;
+}
+.button {
+  background-color: #5361FF ;
+  border-color: #5361FF;
+  color: white;
+  padding: .5em 1em;
+  font-family: helvetica ;
+}
+.button:hover {
+  background-color: #3E4085;
+  border-color: #3E4085 ;
+  color: white ;
+  cursor: pointer;
+}
+
+.form {
+  background-color:#E99B79;
+  padding: 1em;
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+
+<!-- colors -->
+/* 
+683016 -- darkish brown
+CE604B -- lightish brown
+FF9A82 -- light brown
+5361FF -- mid blue
+828DFF -- light blue 
+040B59 -- dark blue*\
