@@ -1,3 +1,11 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Magic The Gathering Pairings</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
 {% extends "layout.html" %}
 {% block body %}
   <ul class=events>
@@ -18,7 +26,10 @@
         <option value="Legacy">Legacy</option>
         <option value="Draft">Draft</option>
       </select>
-      <dd><input type=submit value="Create Event">
+      <dd><input class="button" type=submit value="Create Event">
     </dl>
   </form>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
 {% endblock %}
